@@ -1,0 +1,238 @@
+Group,ENST00000497872,n333737,n335265,Age,RBC,HB,WBC,L,M,Low_grade_fever,Weight_loss ,CT_calcification,CT_bronchus_sign,TB_IGRA,Group_value
+Disease control,-0.2784,-0.7752,2.4767,52,2.68,86,1.79,0.26,0.12,negative,negative,positive,negative,negative,0
+Disease control,0.8916,1.1648,2.1867,60,3.79,121,5.92,0.61,0.14,negative,negative,negative,negative,negative,0
+Disease control,-0.4384,-0.5852,0.6467,64,3.35,101,3.65,1.11,0.11,negative,negative,negative,negative,negative,0
+Disease control,-0.6584,-0.8552,2.5567,67,4.71,141,8.67,2.37,0.61,negative,negative,negative,negative,negative,0
+Disease control,-0.8084,-0.2852,-0.0333,68,3.86,126,2.34,0.83,0.21,negative,negative,negative,negative,negative,0
+Disease control,-1.6384,-2.3552,-0.3433,53,4.04,119,4.86,2.46,0.37,negative,negative,positive,negative,negative,0
+Disease control,-1.8984,-4.9152,0.6667,46,4.13,118,10.88,1.65,1.02,negative,negative,positive,negative,negative,0
+Disease control,-0.7084,-4.4952,0.4667,70,3.52,108,6.69,1.25,0.56,negative,negative,negative,negative,negative,0
+Disease control,-1.2384,-4.4052,1.7267,50,4.2,119,5.6,1.82,0.12,positive,negative,negative,negative,negative,0
+Disease control,-1.9184,-0.7352,-0.0133,46,3.86,116,4.58,1.14,0.16,negative,negative,negative,negative,negative,0
+Disease control,-1.1184,-0.5152,1.0367,45,5.6,163,10.45,1.01,0.52,negative,negative,negative,negative,negative,0
+Disease control,0.7116,0.3348,1.9267,48,3.73,119,3.93,1.18,0.4,negative,negative,negative,negative,positive,0
+Disease control,-0.0984,0.2348,-0.0333,42,4.43,122,4.46,1.41,0.58,negative,negative,positive,negative,negative,0
+Disease control,-0.1084,-0.2152,1.1067,35,4.97,151,8.24,2.54,0.6,negative,negative,negative,negative,negative,0
+Disease control,-1.4884,-0.7052,-0.3133,52,3.6,112,2.75,1.43,0.33,negative,negative,negative,negative,positive,0
+Disease control,-0.7584,-0.0252,-0.0933,58,4.51,140,5.85,1.29,0.35,positive,negative,negative,negative,negative,0
+Disease control,2.0716,-1.7652,0.5367,17,4.73,104,16.41,2.17,0.92,negative,negative,negative,negative,negative,0
+Disease control,0.1816,-2.4252,1.7467,56,4.1,134,4.99,1.64,0.28,negative,negative,positive,negative,negative,0
+Disease control,0.7416,-2.0252,1.8667,46,4.55,134,5.86,1.54,0.33,negative,negative,negative,negative,negative,0
+Disease control,0.5416,-2.5952,2.0867,58,4.44,126,4.56,0.96,0.37,negative,negative,negative,negative,negative,0
+Disease control,-3.0384,-3.7452,-0.9733,55,4.86,146,4.35,0.73,0.33,negative,negative,positive,negative,positive,0
+Disease control,-2.1284,-2.9452,0.0767,72,4.68,140,5.71,1.93,0.36,negative,negative,negative,negative,positive,0
+Disease control,-0.6584,-1.0152,0.5667,53,4.7,142,5.58,1.61,0.34,negative,negative,negative,negative,positive,0
+Disease control,-0.8584,-5.1352,0.0667,50,5.35,156,7.7,1.43,0.62,negative,negative,negative,negative,positive,0
+Disease control,-1.8684,1.8048,1.6867,33,4.57,104,19.45,1.03,1.89,negative,negative,negative,negative,negative,0
+Disease control,-1.7684,2.2648,0.4767,51,3.4,107,5.01,0.73,0.48,negative,negative,negative,negative,negative,0
+Disease control,-1.4384,0.8348,2.0667,40,4.83,150,9.06,1.03,0.43,negative,negative,negative,negative,negative,0
+Disease control,-1.1384,-2.4652,2.1167,37,5.31,142,7.8,1.25,0.46,negative,negative,positive,negative,negative,0
+Disease control,-2.0984,0.9048,1.3967,68,4.22,113,6.36,1,0.63,positive,negative,positive,negative,negative,0
+Disease control,-3.2284,0.9548,1.1867,65,3.6,112,3.08,1.49,0.28,negative,negative,negative,negative,positive,0
+Disease control,-0.6084,-2.0752,0.1867,22,3.6,112,6.53,0.78,0.2,positive,negative,positive,negative,positive,0
+Disease control,-2.3784,-5.6352,-0.0033,45,4.6,126,5.65,1.19,0.41,negative,negative,negative,negative,positive,0
+Disease control,0.9716,-3.1252,-0.8433,70,4,117,5.37,1.56,0.41,positive,negative,negative,negative,positive,0
+Disease control,1.7716,-3.9752,0.2467,65,3.63,93,6.96,1.41,0.49,negative,positive,positive,negative,positive,0
+Disease control,0.3116,-2.5152,0.8267,45,4.85,145,4.2,1.47,0.34,positive,negative,negative,negative,positive,0
+Disease control,1.4716,-4.1452,1.3367,54,3.86,120,4.57,1.18,0.22,negative,negative,positive,negative,positive,0
+Disease control,-0.6884,2.1948,0.8367,73,4.16,113,4.82,1.58,0.24,positive,negative,positive,negative,positive,0
+Disease control,-1.6484,-1.3252,1.3267,21,5.32,161,4.36,1.22,0.44,negative,negative,positive,negative,positive,0
+Disease control,-1.9284,0.1348,1.5667,30,6.63,186,14.36,1.21,0.79,negative,negative,negative,negative,positive,0
+Disease control,-1.0784,-1.2152,1.6867,48,4.83,166,7.54,1.79,0.73,negative,negative,negative,negative,positive,0
+Disease control,-1.2084,-1.4552,-0.4133,68,1.87,58,6.04,2.03,0.48,positive,negative,negative,negative,positive,0
+Disease control,-0.1084,-0.8652,2.3167,39,4.46,106,6.98,2.15,0.4,negative,negative,negative,positive,positive,0
+Disease control,-1.5484,-1.0752,1.5067,81,3.41,98,8.15,0.15,0.45,positive,negative,negative,negative,positive,0
+Disease control,-2.1584,0.6648,-0.4833,20,5.62,167,7.82,1.51,0.97,positive,negative,positive,negative,positive,0
+Disease control,-1.4484,0.2848,0.1567,76,3.4,102,8.3,1.33,0.91,positive,negative,negative,negative,positive,0
+Disease control,-0.0884,-1.3252,0.4867,79,3.85,121,5.44,1.78,0.41,negative,negative,positive,negative,positive,0
+Disease control,1.3116,-1.3052,-0.0533,27,4.97,147,8.19,2.06,0.56,negative,negative,negative,negative,positive,0
+Disease control,-0.6084,-1.4352,2.5167,31,3.59,96,4.16,1.02,0.26,positive,negative,negative,negative,positive,0
+Disease control,-1.0784,-0.9052,1.3467,16,4.55,128,8.72,1.44,0.34,positive,negative,positive,negative,positive,0
+Disease control,-1.9384,0.8548,0.6567,77,3.54,111,8.64,2.13,0.66,negative,negative,positive,negative,positive,0
+Disease control,0.0616,-0.9452,1.2867,45,3.61,109,8.78,0.98,0.58,negative,negative,negative,negative,positive,0
+Disease control,-0.5984,-0.9752,-0.6233,60,4.42,133,7.16,2.07,0.4,negative,negative,negative,negative,positive,0
+Disease control,-0.7884,-3.2452,-2.2133,62,3.68,100,4.93,1.24,0.34,negative,positive,negative,negative,positive,0
+Disease control,-0.7884,-1.7152,-1.9633,60,3.86,123,4.86,1.6,0.58,positive,positive,positive,negative,positive,0
+Disease control,-1.1184,-4.5152,-0.9933,77,3.88,115,10.21,1.05,1.04,positive,positive,positive,negative,positive,0
+Disease control,-2.2084,-5.2352,-0.1033,73,3.5,102,6.79,1.49,0.73,positive,negative,negative,negative,negative,0
+Disease control,-0.8284,-2.2952,0.7967,54,2.72,80,6.48,0.58,0.1,negative,negative,positive,negative,negative,0
+Disease control,-0.1184,-3.4952,-0.0533,66,1.46,55,4.02,1.39,0.53,negative,negative,negative,negative,positive,0
+Disease control,-1.3084,-2.1152,2.2267,75,5.12,155,7.19,0.94,0.54,negative,negative,negative,negative,positive,0
+Disease control,-2.0484,2.0248,1.0467,75,3.67,111,2.98,0.99,0.25,negative,negative,negative,negative,negative,0
+Disease control,-2.7984,1.0348,1.3567,57,3.86,101,26.63,0.8,2.93,positive,negative,negative,negative,negative,0
+Disease control,-2.3584,0.9748,0.1267,87,2.56,73,11.28,2.03,1.13,positive,negative,negative,negative,negative,0
+Disease control,-1.8984,1.2648,0.1867,67,4.62,111,9.8,2.64,0.92,negative,negative,negative,positive,negative,0
+Disease control,-2.2184,1.7648,2.0867,78,4.24,124,12.91,5.02,1.08,positive,negative,negative,negative,positive,0
+Disease control,-1.1284,1.5448,0.9567,56,4.09,109,9.28,0.27,0.68,negative,negative,negative,negative,negative,0
+Disease control,0.8516,2.1548,0.2767,42,4.37,139,6.32,2.02,0.33,positive,negative,positive,negative,positive,0
+Disease control,-1.1684,2.2548,-0.1333,88,3.86,114,9.48,1.08,0.94,negative,negative,negative,negative,negative,0
+Disease control,-1.1684,1.5448,-0.7033,53,2.61,78,13.27,1.38,1.06,positive,negative,negative,negative,negative,0
+Disease control,-1.2284,1.5248,1.0567,60,4.21,112,5.88,1.23,0.54,negative,negative,negative,negative,negative,0
+Disease control,-0.5884,1.3748,-0.2333,87,2.24,64,8.86,1.56,0.69,positive,negative,negative,negative,negative,0
+Disease control,-2.0984,1.5148,2.0967,84,3.06,86,4.83,0.58,0.68,positive,negative,positive,negative,negative,0
+Disease control,-1.3384,-1.1052,0.2167,75,2.59,76,6.67,0.87,0.6,negative,negative,positive,negative,negative,0
+Disease control,-1.2884,1.4948,0.5767,80,5.61,156,6.69,1.29,0.42,negative,negative,positive,negative,negative,0
+Disease control,-1.3384,1.9648,1.0567,51,2.01,60,5.73,0.72,0.23,positive,negative,negative,negative,negative,0
+Disease control,-0.0684,1.5048,1.4967,57,4.89,153,8.59,4.21,0.58,positive,negative,negative,negative,negative,0
+Disease control,-0.9084,1.3748,0.3667,61,3.91,120,8.38,2.55,0.48,negative,negative,positive,negative,negative,0
+Disease control,0.3616,1.4548,1.5867,66,2.68,75,12.65,0.89,0.4,negative,negative,positive,negative,negative,0
+Disease control,0.3316,1.5048,0.1867,60,4.28,127,1.71,0.27,0.17,positive,negative,negative,negative,negative,0
+Disease control,-0.3384,1.5148,0.8467,76,4.5,134,8.01,2.1,0.47,positive,negative,positive,negative,negative,0
+Disease control,-1.3184,2.1348,1.3367,70,4.54,129,8.52,2.11,0.82,negative,negative,negative,negative,negative,0
+Disease control,-0.7684,1.5048,-0.0933,29,5.83,170,6.64,1.36,0.38,negative,negative,negative,negative,negative,0
+Disease control,-1.0184,-0.5052,-0.3033,26,4.78,132,10.74,2.36,1.29,negative,negative,positive,positive,negative,0
+Disease control,-2.0584,2.2348,1.3767,46,2.43,76,7.29,0.97,0.34,positive,negative,positive,negative,positive,0
+Disease control,-3.0684,1.6648,1.2067,46,2.43,76,7.29,0.97,0.34,positive,negative,positive,negative,negative,0
+Disease control,-1.1184,1.3748,1.9267,38,3.75,119,6.59,1.27,0.4,positive,negative,negative,negative,negative,0
+Disease control,-1.3984,-0.0552,0.8267,84,3.5,96,4.27,0.85,0.6,negative,negative,positive,negative,negative,0
+Disease control,-1.8784,1.1748,1.2167,75,4.77,144,9.69,1.83,0.81,negative,negative,negative,negative,positive,0
+Disease control,-2.6384,1.0848,-1.1533,72,3.5,103,15.41,0.62,10.94,positive,negative,positive,negative,negative,0
+Disease control,-1.3584,-4.1252,-0.7733,75,2.66,78,28.73,0.86,2.3,negative,negative,negative,negative,negative,0
+Disease control,-1.2284,1.5048,2.8067,67,5.28,127,8.3,2.29,0.82,negative,negative,negative,positive,negative,0
+Disease control,-0.2684,1.5048,2.0867,65,4.98,80,4.19,0.77,0.41,negative,negative,negative,negative,negative,0
+Disease control,-1.0984,1.5148,2.6467,75,4.57,126,4.91,1.68,0.36,negative,negative,negative,negative,negative,0
+Disease control,-1.2384,1.3748,1.7867,70,2.36,79,11.66,1.08,0.43,negative,negative,negative,positive,negative,0
+Disease control,-1.3884,1.3848,1.0367,61,2.46,71,8.57,4.8,0.09,positive,negative,negative,negative,negative,0
+Disease control,-0.2284,1.5048,2.2267,63,3.38,95,8.09,0.7,0.36,positive,negative,positive,negative,positive,0
+Disease control,-0.5484,0.6548,1.3667,39,4.16,116,7.18,1.8,0.49,negative,negative,negative,negative,negative,0
+Disease control,0.7816,1.6948,0.3167,72,3.31,97,21.35,0.43,4.27,positive,negative,positive,negative,negative,0
+Disease control,-0.1984,0.3848,1.4167,67,3.44,100,5.78,1.8,0.35,negative,negative,negative,negative,negative,0
+Disease control,-0.2884,0.6548,0.9867,89,2.37,78,18.02,5.41,1.8,positive,negative,negative,negative,negative,0
+Disease control,-0.8784,-2.5952,1.1667,72,2.83,85,18.4,0.92,1.1,negative,negative,positive,negative,negative,0
+Disease control,-0.5584,1.0748,0.8867,78,2.85,86,4.82,0.56,0.46,negative,negative,positive,negative,negative,0
+Disease control,-0.3784,-4.7552,-2.1233,75,2.51,77,29.61,1.48,2.37,positive,negative,negative,negative,negative,0
+Disease control,-0.6484,-1.6652,-1.4833,87,2.09,63,11.61,0.42,0.31,negative,negative,negative,negative,negative,0
+Disease control,-0.1884,-4.0952,-1.2833,70,3.27,108,3.29,0.57,0.43,negative,negative,negative,negative,negative,0
+Disease control,-0.6784,-5.0452,0.4067,72,4.23,112,6.88,1.61,0.51,positive,positive,negative,negative,negative,0
+Disease control,-0.4084,-3.7952,-0.7533,44,3.63,83,9.07,1.34,0.55,positive,negative,positive,negative,negative,0
+Disease control,-0.6684,0.6748,-0.5133,51,3.4,117,12.88,1.67,1.22,positive,negative,positive,negative,negative,0
+Disease control,-0.2384,-5.3752,-2.2933,51,3.94,114,9.16,1.57,0.69,negative,negative,positive,negative,negative,0
+Disease control,-0.1984,1.2048,1.1867,50,2.28,67,9.01,1.88,0.71,positive,negative,positive,negative,negative,0
+Disease control,-0.6684,0.6548,1.9067,67,3.15,100,4.16,1.06,0.35,negative,negative,positive,negative,negative,0
+Disease control,0.3016,0.6548,2.3667,63,3.34,100,13.72,1.67,0.64,positive,negative,positive,negative,negative,0
+Disease control,0.7416,0.6548,1.6867,65,3.81,113,5.5,1.2,0.34,negative,negative,negative,negative,positive,0
+Disease control,-0.7384,2.0548,1.7467,67,3.22,97,6.96,0.55,0.84,positive,negative,positive,negative,negative,0
+Disease control,0.2116,0.6548,0.1867,82,3.26,95,12.26,1.28,0.67,positive,negative,positive,negative,negative,0
+Disease control,0.2516,0.6548,2.0267,43,3.86,110,10.8,1.83,0.98,positive,negative,negative,negative,negative,0
+Disease control,-0.4284,-3.7452,2.7467,21,3.64,103,6.43,0.89,0.52,positive,negative,positive,negative,negative,0
+Disease control,-1.6884,0.3548,1.3867,67,3.38,101,13.86,0.62,0.75,negative,negative,negative,negative,negative,0
+Disease control,0.1716,1.1748,1.3367,78,5,145,7.87,2.74,0.77,positive,negative,positive,negative,negative,0
+Disease control,-0.2384,1.2348,0.6667,53,4.63,131,5.47,2.38,0.45,positive,negative,negative,negative,negative,0
+Disease control,-1.1284,1.7148,0.1867,21,4.82,145,9.99,2.33,0.89,positive,negative,negative,negative,positive,0
+Disease control,-0.3684,1.3748,1.2967,65,3.22,92,23.57,0.24,2.12,positive,negative,positive,negative,negative,0
+Disease control,-0.3484,1.3748,1.4567,75,2.84,90,10.29,0.77,0.97,positive,negative,positive,negative,negative,0
+Disease control,-2.4384,-3.9852,-1.3033,67,3,90,8.15,0.57,0.34,positive,negative,negative,negative,negative,0
+Disease control,-1.9684,-2.4652,2.2167,43,4.43,131,7.35,1.34,0.44,negative,positive,positive,positive,negative,0
+Disease control,0.062,-2.735,1.657,62,3.91,119,6.3,2.23,0.6,negative,negative,negative,negative,negative,0
+Disease control,1.112,-2.525,2.527,52,3.78,117,17.51,0.98,0.47,negative,negative,positive,negative,negative,0
+Disease control,-0.508,-2.485,2.457,38,3.82,96,6.42,0.92,0.73,negative,negative,negative,negative,negative,0
+Disease control,1.732,-1.735,-0.253,59,3.01,96,1.82,0.28,0.05,negative,negative,positive,negative,negative,0
+Disease control,1.082,-1.765,-0.093,47,4.76,95,7.39,1.55,0.2,negative,negative,negative,negative,negative,0
+Disease control,-1.548,-1.975,2.067,72,4.25,125,6.93,0.7,0.25,negative,negative,positive,negative,negative,0
+Disease control,-0.838,-2.365,2.367,54,4.14,122,5.21,0.91,0.17,positive,negative,negative,negative,negative,0
+Disease control,-1.168,-3.365,0.527,51,4.23,123,6.14,2.78,0.11,negative,negative,positive,negative,negative,0
+Disease control,-1.228,-4.595,0.387,58,3.71,115,6.77,1.82,0.18,negative,negative,positive,negative,negative,0
+Disease control,-0.288,-5.545,-0.503,56,4.3,133,3.16,0.3,0.07,negative,negative,negative,negative,negative,0
+Disease control,-0.758,-4.085,2.347,44,4.99,125,2.46,0.93,0.05,negative,negative,negative,negative,negative,0
+Disease control,-1.918,-1.995,0.307,65,5.02,133,5.84,2,0.4,negative,negative,negative,negative,negative,0
+Disease control,-1.518,-1.785,1.467,45,3.3,106,14.18,0.47,0.41,negative,negative,negative,negative,negative,0
+Disease control,-1.908,-3.315,1.097,64,4.09,116,3.02,1.53,0.18,negative,negative,negative,negative,negative,0
+Disease control,-1.458,-4.745,1.637,58,3.48,102,3.75,1.16,0.35,negative,negative,negative,negative,negative,0
+Disease control,-0.578,-1.065,-0.883,57,3.97,125,7.03,1.56,0.41,negative,negative,positive,negative,positive,0
+NPTB,-2.7484,0.1848,0.5767,39,4.09,124,8.95,0.45,0.28,negative,negative,positive,positive,negative,1
+NPTB,-1.7484,-0.3252,2.0567,29,4.4,120,7.53,1.47,0.87,positive,negative,positive,negative,positive,1
+NPTB,-1.5184,-0.7052,1.9367,21,4.2,124,8.68,0.94,0.56,positive,negative,negative,negative,positive,1
+NPTB,-1.6584,-1.3452,2.1167,53,4.62,137,3.96,1.02,0.19,negative,negative,negative,positive,positive,1
+NPTB,-1.2184,2.0348,1.5667,34,5.13,139,5.68,1.45,0.3,positive,negative,positive,negative,negative,1
+NPTB,-0.2984,1.5048,2.3867,26,5.52,98,12.74,2.06,0.76,positive,negative,positive,negative,negative,1
+NPTB,-5.3784,-2.2952,-0.8933,24,4.95,144,6.4,2.57,0.37,negative,negative,negative,positive,positive,1
+NPTB,-2.7484,2.5648,4.0067,35,5.25,160,5.28,1.76,0.2,positive,negative,positive,negative,negative,1
+NPTB,-2.7584,-0.3952,0.4367,69,2.73,83,2.4,0.58,0.16,positive,positive,positive,negative,negative,1
+NPTB,-0.7584,0.6248,3.0667,63,4.12,125,5.93,1.78,0.64,negative,negative,positive,negative,negative,1
+NPTB,-4.9784,-5.3852,2.2167,19,4.26,127,4.78,1.69,0.36,negative,negative,negative,positive,positive,1
+NPTB,-2.6884,-6.8052,1.9667,27,4.64,129,4.44,0.53,0.53,negative,negative,positive,negative,positive,1
+NPTB,-1.9984,-3.9852,-0.4633,24,4.38,126,7.19,2.22,0.36,negative,negative,positive,negative,positive,1
+NPTB,-1.6084,-0.7352,1.4167,60,4.02,93,8.83,1.26,0.87,positive,negative,positive,negative,positive,1
+NPTB,-2.0784,-4.8752,2.1767,30,4.34,116,1.8,0.42,0.06,negative,negative,positive,negative,negative,1
+NPTB,-1.3784,-2.3052,2.0067,15,4.7,133,5.2,0.66,0.25,negative,negative,positive,negative,positive,1
+NPTB,-0.7684,-2.3052,1.5967,22,4.33,123,9.13,1.22,0.89,negative,negative,negative,negative,positive,1
+NPTB,-1.7684,-2.1352,2.1167,22,4.39,111,4.11,1.6,0.29,positive,negative,positive,negative,negative,1
+NPTB,-2.7384,-2.3052,2.0267,40,6.18,151,5.83,1.41,0.37,negative,negative,negative,positive,positive,1
+NPTB,-2.4784,-2.2152,1.1867,63,3.54,97,6.5,1.12,0.41,negative,positive,negative,positive,negative,1
+NPTB,-1.3184,0.7448,1.1867,67,4.35,89,3.43,0.82,0.34,negative,negative,negative,negative,negative,1
+NPTB,-2.6284,-0.9952,1.0767,22,4.44,113,10.41,0.92,1.15,positive,positive,positive,positive,negative,1
+NPTB,-2.1784,1.1348,0.5267,59,4.44,139,3.97,1.77,0.29,positive,positive,negative,negative,positive,1
+NPTB,-2.2184,0.4348,1.8967,56,4.07,121,7.7,1.52,0.77,positive,negative,positive,negative,negative,1
+NPTB,-1.1384,-2.3052,1.5167,22,5.14,92,4.97,0.95,0.59,positive,positive,negative,negative,positive,1
+NPTB,-1.7484,-2.4652,0.7867,26,3.95,104,9.71,0.55,0.4,positive,negative,positive,negative,positive,1
+NPTB,-3.2384,-1.1952,2.5767,33,4.48,127,5.28,0.5,0.37,negative,negative,positive,negative,positive,1
+NPTB,-4.6484,-3.4752,1.4967,49,4.82,139,3.85,0.98,0.2,negative,negative,negative,negative,positive,1
+NPTB,-4.1984,-3.5352,1.4767,42,3,94,4.17,0.93,0.34,positive,positive,negative,negative,negative,1
+NPTB,-2.2184,-0.1852,0.3567,57,4.57,133,11.13,1.21,0.43,positive,negative,positive,negative,positive,1
+NPTB,-3.6484,0.5948,2.5467,28,4.78,89,6.07,0.91,0.55,negative,positive,positive,negative,positive,1
+NPTB,-4.3884,-0.6852,2.1667,48,4.97,151,5.5,1.54,0.61,positive,negative,positive,negative,negative,1
+NPTB,-2.6884,-2.5752,1.4467,18,5.13,146,7.32,0.88,0.89,positive,positive,positive,positive,positive,1
+NPTB,-2.3584,-0.0952,2.9167,36,4.79,142,4.38,1.74,0.31,positive,negative,positive,positive,positive,1
+NPTB,-2.7784,0.3748,0.7367,45,3.63,105,2.95,0.64,0.38,positive,positive,negative,negative,positive,1
+NPTB,-1.2684,-6.8052,1.5967,61,6.49,188,9.5,1.4,0.59,negative,negative,negative,negative,positive,1
+NPTB,-1.7384,-2.2252,1.8967,19,5.13,117,9.78,2.24,0.65,positive,negative,positive,negative,positive,1
+NPTB,-0.9084,-3.4552,0.4567,15,5.27,128,4.95,1.13,0.37,negative,negative,negative,negative,positive,1
+NPTB,-1.0384,-2.3752,0.4667,19,4.54,143,5.41,2.3,0.42,positive,negative,negative,negative,negative,1
+NPTB,-1.3584,-4.1152,1.4267,54,4.59,129,7.18,1.49,0.48,positive,negative,negative,negative,negative,1
+NPTB,-1.3884,-0.3752,1.0067,30,3.99,116,6.31,0.57,0.34,negative,negative,positive,negative,positive,1
+NPTB,-0.7284,-1.6452,1.6467,25,4.24,113,6.36,0.81,0.64,negative,positive,positive,negative,negative,1
+NPTB,-0.0484,-3.2952,1.3067,27,4.42,126,4.97,1.43,0.32,positive,negative,negative,negative,negative,1
+NPTB,-2.7584,-1.7652,0.8467,16,3.55,118,1.6,0.59,0.1,positive,negative,positive,negative,positive,1
+NPTB,-0.0584,-3.5852,1.2167,73,4.16,136,7.62,1.4,1.12,positive,negative,positive,negative,positive,1
+NPTB,-1.2284,-3.1352,0.4267,28,5.4,160,8.22,1.27,0.73,negative,positive,positive,negative,negative,1
+NPTB,-2.7584,-3.9252,1.6667,28,3.52,87,4.66,0.86,0.48,positive,positive,negative,negative,negative,1
+NPTB,-2.7484,-4.7052,2.2167,52,6.2,179,5.58,0.15,0.03,negative,positive,negative,negative,positive,1
+NPTB,-3.4684,-3.5352,-1.4633,29,2.44,74,2.67,0.91,0.19,positive,positive,positive,negative,negative,1
+NPTB,-2.3284,-3.3552,2.2967,41,3.88,109,3.3,1.06,0.3,negative,negative,positive,negative,positive,1
+NPTB,-1.6084,-1.2452,0.2767,66,4.41,134,7.77,1.22,0.72,negative,negative,positive,negative,positive,1
+NPTB,-1.4284,-1.6452,-1.0433,17,4.5,133,4.88,0.97,0.55,positive,positive,positive,negative,positive,1
+NPTB,-1.7784,-4.6052,1.2567,29,5.37,131,4.26,2.21,0.25,negative,negative,negative,negative,negative,1
+NPTB,-1.0384,-2.2252,-1.3033,20,5.62,170,8.85,1.78,0.84,negative,negative,positive,negative,negative,1
+NPTB,0.3016,-0.3752,1.1467,26,3.42,94,7.54,1.45,0.54,negative,negative,positive,negative,positive,1
+NPTB,-0.1384,-2.1552,-1.9033,68,3.86,115,3.4,0.49,0.38,negative,negative,negative,negative,negative,1
+NPTB,-1.5684,-4.8052,1.2767,51,5.21,153,3.96,1.88,0.27,negative,negative,positive,negative,positive,1
+NPTB,-1.8184,1.0048,1.3567,58,4.66,151,8.44,2.39,0.52,negative,positive,negative,negative,negative,1
+NPTB,-4.2984,-5.9052,2.8067,43,6.07,120,4.45,1.54,0.19,positive,negative,positive,negative,positive,1
+NPTB,-3.7684,-6.6952,2.7667,18,5.66,158,12.35,1.61,0.64,positive,negative,positive,negative,positive,1
+NPTB,-4.9084,-6.2752,0.7567,25,4.76,146,9.28,1.44,0.67,positive,negative,positive,negative,negative,1
+NPTB,-1.9784,-4.2852,1.3467,24,4.74,136,7.82,1.54,0.42,negative,negative,positive,negative,positive,1
+NPTB,-4.8584,-6.5052,1.0767,76,3.55,102,5.99,0.73,0.47,negative,negative,positive,negative,negative,1
+NPTB,-0.2084,-2.3052,0.0667,66,6.17,193,3.03,0.94,0.36,positive,positive,positive,negative,positive,1
+NPTB,0.5516,-2.3052,0.8667,44,4.01,115,4.85,2.4,0.27,negative,negative,negative,negative,positive,1
+NPTB,-1.7384,-2.3052,2.3967,44,5.22,152,10.96,3.13,0.8,positive,negative,negative,negative,positive,1
+NPTB,-0.8884,-2.3052,1.2667,41,4.13,111,8.8,1.03,0.54,negative,negative,negative,negative,negative,1
+NPTB,-1.9984,-3.9852,3.7167,55,2.66,70,10.38,0.59,0.59,positive,negative,positive,negative,positive,1
+NPTB,-1.7484,-3.9152,1.3467,20,5.41,143,7.78,1.27,0.57,negative,negative,negative,negative,negative,1
+NPTB,-3.4384,0.0948,3.4767,41,4.98,154,2.89,0.97,0.16,positive,negative,positive,negative,positive,1
+NPTB,-2.6884,-3.7452,1.8567,45,4.03,126,3.95,0.47,1.5,positive,negative,negative,negative,positive,1
+NPTB,-1.0584,2.7348,4.5767,44,3.94,123,11.05,0.46,0.02,negative,negative,positive,negative,positive,1
+NPTB,-1.0284,-5.2252,0.3267,37,6.12,169,8.87,2.22,0.5,negative,negative,negative,negative,positive,1
+NPTB,-1.6584,0.7748,1.7067,66,4.59,111,34.73,0.35,0.69,negative,positive,negative,negative,negative,1
+NPTB,0.1616,-4.0352,2.0167,15,4.96,132,10.58,2.4,0.7,negative,negative,positive,negative,positive,1
+NPTB,-3.0584,-4.9752,0.2167,61,4.17,122,8.47,1.86,0.68,negative,negative,positive,positive,positive,1
+NPTB,-1.2784,-0.8852,-0.4633,17,3.32,84,5.98,1.04,0.4,negative,positive,positive,negative,positive,1
+NPTB,-1.2884,-5.0752,-1.4333,50,5.03,133,5.56,1.47,0.27,negative,positive,negative,negative,positive,1
+NPTB,0.4116,-4.8552,0.3167,39,4.44,141,10.86,1.41,0.93,positive,positive,negative,positive,positive,1
+NPTB,-1.6684,-3.8052,-0.7533,63,2.97,87,5.91,1.8,0.25,positive,negative,positive,negative,negative,1
+NPTB,0.1316,-1.8852,2.0367,46,4.23,128,4.12,1.58,0.23,negative,negative,positive,negative,positive,1
+NPTB,-1.6784,-3.5752,2.0967,14,4.51,137,5.4,2.5,0.38,positive,negative,positive,positive,positive,1
+NPTB,-0.3884,-4.7852,-1.5133,62,4.19,127,6.97,1.63,0.39,negative,negative,negative,negative,positive,1
+NPTB,-0.1084,-2.7452,-1.6833,21,4.67,140,8.02,0.85,0.51,positive,negative,positive,negative,positive,1
+NPTB,-1.4084,-3.9052,-1.9733,49,3.82,123,5.24,0.74,0.43,negative,negative,negative,negative,negative,1
+NPTB,-2.0484,-2.7052,-1.8533,57,3.68,132,2.07,1,0.07,positive,negative,negative,negative,positive,1
+NPTB,-0.7084,-4.8652,-1.5233,18,3.96,118,4.62,0.72,0.46,positive,negative,positive,negative,positive,1
+NPTB,-1.8784,-4.1552,-1.5533,14,4.95,135,5.97,2.15,0.64,negative,negative,negative,negative,negative,1
+NPTB,-1.2484,-4.3052,-1.0033,21,3.98,117,6.16,1.51,0.43,negative,positive,positive,positive,positive,1
+NPTB,-2.5784,-0.8852,1.2567,52,4.5,133,7.66,2.36,0.69,negative,negative,positive,negative,positive,1
+NPTB,-0.9084,-2.5652,1.2767,34,4.22,129,3.2,1.02,0.28,positive,negative,positive,negative,positive,1
+NPTB,-1.1184,-3.4452,-0.5933,17,3.65,119,3.82,0.67,0.32,positive,negative,negative,negative,positive,1
+NPTB,-0.2384,-0.3752,-1.6833,49,3.91,131,10.45,1.22,0.61,negative,negative,negative,negative,positive,1
+NPTB,-0.7184,-0.3752,-0.3433,44,4.43,125,3.05,1.23,0.15,positive,negative,negative,negative,positive,1
+NPTB,-2.2684,-4.0052,-1.3333,20,5.02,78.5,5.08,0.57,0.65,positive,negative,negative,negative,positive,1
+NPTB,-0.0484,-0.8852,2.3467,72,3.71,113,7.36,1.33,0.5,positive,positive,negative,negative,positive,1
+NPTB,-4.0684,-0.3752,0.2767,15,3.06,71,4.29,1.2,1.24,positive,positive,positive,positive,positive,1
