@@ -4,15 +4,9 @@
 
 # Read the data of the Selection Cohort ("Selection.csv")
 Selection <- read.csv("Selection.csv",as.is = T,sep = ",",header = TRUE, na.strings = c(""))
-Selection$Group <-  as.factor(Selection$Group)
-Selection$Age <-  as.numeric(Selection$Age)
-Selection$HB <-  as.numeric(Selection$HB)
-Selection$Low_grade_fever <-  as.factor(Selection$Low_grade_fever)
-Selection$Weight_loss <-  as.factor(Selection$Weight_loss)
-Selection$CT_calcification <-  as.factor(Selection$CT_calcification)
-Selection$CT_bronchus_sign <-  as.factor(Selection$CT_bronchus_sign)
-Selection$TB_IGRA  <-  as.factor(Selection$TB_IGRA)
-Selection$Group_value <-  as.numeric(Selection$Group_value)
+catVars <- c("Low_grade_fever","Weight_loss","CT_calcification","CT_bronchus_sign","TB_IGRA")
+Selection[catVars] <- lapply(Selection[catVars], as.factor)
+unique(Selection)
 str(Selection)
 
 library(bestglm)
@@ -55,20 +49,21 @@ res.bestglm.BIC$BestModels
 
 # Take "EHR+lncRNA" modeling as an example
 # Model evaluation 1: performance
-Combined_model <- glm(Group ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link="logit"),data=Selection)
+Combined_model <- glm(Group_value ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link="logit"),data=Selection)
 Pre <- predict.glm(Combined_model,type='response')
 Pre =ifelse(Pre>0.5,1,0)
 Selection$Predict1 = Pre
 true_value=Selection$Group_value
 predict_value=Selection$Predict1
 cft1 <- table(true_value,predict_value)
+library(caret)
 confusionMatrix(cft1, positive = "1")
 
 # Model evaluation 2: model features, coefficients of features, C-statistics,bias_corrected_c_statistic, Likelihood ratio test,Nagelkerke R2, and McFadden R2  
 library(rms)
 dd <- datadist(Selection)
 options(datadist = 'dd')
-Combined <- lrm(Group ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA, x = TRUE,y = TRUE, data = Selection)
+Combined <- lrm(Group_value ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA, x = TRUE,y = TRUE, data = Selection)
 print(Combined)
 
 pscl::pR2(Combined) 
@@ -94,7 +89,7 @@ sort(vif(Combined_model),decreasing = TRUE) # VIF > 10 means multicollinearity e
 #Part 3: Nomogram visulization for the optimal model (EHR+lncRNA model)
 nom <- nomogram(Combined, fun= plogis,
                 fun.at = c(.01,.1,.2,.3,.4,.5,.6,.7,.8,.9,.95),
-                lp=F, funlabel="Risk of NPTB")
+                lp=F, funlabel="Risk of PTB without pathogenic evidence")
 plot(nom,xfrac=.35)
 #Calibration curve of the nomogram in the selection cohort
 cal<-calibrate(Combined,method="boot",B=500)
@@ -108,16 +103,8 @@ varImp(Combined_model)
 
 # Read the data of the Validation Cohort ("Validation.csv")
 Validation <- read.csv("Validation.csv",as.is = T,sep = ",",header = TRUE, na.strings = c(""))
+Validation [catVars] <- lapply(Validation[catVars], as.factor)
 str(Validation)
-Validation$Group <-  as.factor(Validation$Group)
-Validation$Age <-  as.numeric(Validation$Age)
-Validation$Low_grade_fever <-  as.factor(Validation$Low_grade_fever)
-Validation$Weight_loss <-  as.factor(Validation$Weight_loss)
-Validation$CT_calcification <-  as.factor(Validation$CT_calcification)
-Validation$CT_bronchus_sign <-  as.factor(Validation$CT_bronchus_sign)
-Validation$TB_IGRA  <-  as.factor(Validation$TB_IGRA)
-Validation$HB <-  as.numeric(Validation$HB)
-Validation$Group_value <-  as.numeric(Validation$Group_value)
 
 # Take "EHR+lncRNA" modeling as an example
 # (1) performance
@@ -129,10 +116,10 @@ predict_value2=Validation$Pre2
 cft2 <- table(true_value2,predict_value2)
 confusionMatrix(cft2, positive = "1")
 # (2) calibration characteristics (calibration plot and Hosmer-Lemeshow test)
-Nomo.validation <- lrm(Group ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA, x = TRUE,y = TRUE, data=Validation)
+Nomo.validation <- lrm(Group_value ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA, x = TRUE,y = TRUE, data=Validation)
 plot(calibrate(Nomo.validation,method="boot",B=500))
 
-Combined.validation <- glm(Group ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link="logit"), data=Validation)
+Combined.validation <- glm(Group_value ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link="logit"), data=Validation)
 hoslem.test (Validation$Group_value, fitted(Combined.validation), g=10) 
 
 # (3) bias_corrected c_statistic
@@ -150,24 +137,18 @@ print(orig_c_statistic)
 
 # Read the data of the Allpatients cohort ("Allpatients.csv")
 Allpatients <- read.csv("Allpatients.csv",as.is = T,sep = ",",header = TRUE, na.strings = c(""))
+Allpatients[catVars] <- lapply(Allpatients[catVars], as.factor)
 str(Allpatients)
-Allpatients$Group <-  as.factor(Allpatients$Group)
-Allpatients$Age <-  as.numeric(Allpatients$Age)
-Allpatients$HB <-  as.numeric(Allpatients$HB)
-Allpatients$Low_grade_fever <-  as.factor(Allpatients$Low_grade_fever)
-Allpatients$Weight_loss <-  as.factor(Allpatients$Weight_loss)
-Allpatients$CT_calcification <-  as.factor(Allpatients$CT_calcification)
-Allpatients$CT_bronchus_sign <-  as.factor(Allpatients$CT_bronchus_sign)
-Allpatients$TB_IGRA  <-  as.factor(Allpatients$TB_IGRA)
-Allpatients$Group_value <-  as.numeric(Allpatients$Group_value)
+
 
 library(rmda)
 set.seed(123) 
 EHR <- decision_curve(Group_value ~ Age+HB+M+Low_grade_fever+Weight_loss+CT_calcification+CT_bronchus_sign+TB_IGRA,family=binomial(link = "logit"),data = Allpatients, policy = "opt-in", thresholds= seq(0,1, by = 0.01), confidence.intervals =0.95, bootstraps = 500)
-Nomogram <- decision_curve(Group_value ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link = "logit"),data = Selection, policy = "opt-in", thresholds= seq(0,1, by = 0.01), confidence.intervals =0.95, bootstraps = 500)
+Nomogram <- decision_curve(Group_value ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link = "logit"),data = Allpatients, policy = "opt-in", thresholds= seq(0,1, by = 0.01), confidence.intervals =0.95, bootstraps = 500)
 plot_decision_curve( list(EHR, Nomogram),curve.names = c("EHR only model", "Nomogram"),xlab=c("Threshold Probability"),standardize = F,col = c("blue", "red"), confidence.intervals =FALSE, xlim = c(0, 1), lty = c(2,1),cost.benefit.axis = FALSE,legend.position = "none")
 legend("topright", cex=0.7, legend=c("EHR only model", "Nomogram","All","None"),col=c('blue','red','grey','black'), lty = c(2,1,1,1),lwd=c(2, 2, 1, 1))
 library(gridGraphics)
 grid.echo()
 grid.ls()
 grid.remove("abline", grep=TRUE, global=TRUE)
+

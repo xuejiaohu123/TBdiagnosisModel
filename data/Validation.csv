@@ -139,100 +139,100 @@ Disease control,-1.518,-1.785,1.467,45,3.3,106,14.18,0.47,0.41,negative,negative
 Disease control,-1.908,-3.315,1.097,64,4.09,116,3.02,1.53,0.18,negative,negative,negative,negative,negative,0
 Disease control,-1.458,-4.745,1.637,58,3.48,102,3.75,1.16,0.35,negative,negative,negative,negative,negative,0
 Disease control,-0.578,-1.065,-0.883,57,3.97,125,7.03,1.56,0.41,negative,negative,positive,negative,positive,0
-NPTB,-2.7484,0.1848,0.5767,39,4.09,124,8.95,0.45,0.28,negative,negative,positive,positive,negative,1
-NPTB,-1.7484,-0.3252,2.0567,29,4.4,120,7.53,1.47,0.87,positive,negative,positive,negative,positive,1
-NPTB,-1.5184,-0.7052,1.9367,21,4.2,124,8.68,0.94,0.56,positive,negative,negative,negative,positive,1
-NPTB,-1.6584,-1.3452,2.1167,53,4.62,137,3.96,1.02,0.19,negative,negative,negative,positive,positive,1
-NPTB,-1.2184,2.0348,1.5667,34,5.13,139,5.68,1.45,0.3,positive,negative,positive,negative,negative,1
-NPTB,-0.2984,1.5048,2.3867,26,5.52,98,12.74,2.06,0.76,positive,negative,positive,negative,negative,1
-NPTB,-5.3784,-2.2952,-0.8933,24,4.95,144,6.4,2.57,0.37,negative,negative,negative,positive,positive,1
-NPTB,-2.7484,2.5648,4.0067,35,5.25,160,5.28,1.76,0.2,positive,negative,positive,negative,negative,1
-NPTB,-2.7584,-0.3952,0.4367,69,2.73,83,2.4,0.58,0.16,positive,positive,positive,negative,negative,1
-NPTB,-0.7584,0.6248,3.0667,63,4.12,125,5.93,1.78,0.64,negative,negative,positive,negative,negative,1
-NPTB,-4.9784,-5.3852,2.2167,19,4.26,127,4.78,1.69,0.36,negative,negative,negative,positive,positive,1
-NPTB,-2.6884,-6.8052,1.9667,27,4.64,129,4.44,0.53,0.53,negative,negative,positive,negative,positive,1
-NPTB,-1.9984,-3.9852,-0.4633,24,4.38,126,7.19,2.22,0.36,negative,negative,positive,negative,positive,1
-NPTB,-1.6084,-0.7352,1.4167,60,4.02,93,8.83,1.26,0.87,positive,negative,positive,negative,positive,1
-NPTB,-2.0784,-4.8752,2.1767,30,4.34,116,1.8,0.42,0.06,negative,negative,positive,negative,negative,1
-NPTB,-1.3784,-2.3052,2.0067,15,4.7,133,5.2,0.66,0.25,negative,negative,positive,negative,positive,1
-NPTB,-0.7684,-2.3052,1.5967,22,4.33,123,9.13,1.22,0.89,negative,negative,negative,negative,positive,1
-NPTB,-1.7684,-2.1352,2.1167,22,4.39,111,4.11,1.6,0.29,positive,negative,positive,negative,negative,1
-NPTB,-2.7384,-2.3052,2.0267,40,6.18,151,5.83,1.41,0.37,negative,negative,negative,positive,positive,1
-NPTB,-2.4784,-2.2152,1.1867,63,3.54,97,6.5,1.12,0.41,negative,positive,negative,positive,negative,1
-NPTB,-1.3184,0.7448,1.1867,67,4.35,89,3.43,0.82,0.34,negative,negative,negative,negative,negative,1
-NPTB,-2.6284,-0.9952,1.0767,22,4.44,113,10.41,0.92,1.15,positive,positive,positive,positive,negative,1
-NPTB,-2.1784,1.1348,0.5267,59,4.44,139,3.97,1.77,0.29,positive,positive,negative,negative,positive,1
-NPTB,-2.2184,0.4348,1.8967,56,4.07,121,7.7,1.52,0.77,positive,negative,positive,negative,negative,1
-NPTB,-1.1384,-2.3052,1.5167,22,5.14,92,4.97,0.95,0.59,positive,positive,negative,negative,positive,1
-NPTB,-1.7484,-2.4652,0.7867,26,3.95,104,9.71,0.55,0.4,positive,negative,positive,negative,positive,1
-NPTB,-3.2384,-1.1952,2.5767,33,4.48,127,5.28,0.5,0.37,negative,negative,positive,negative,positive,1
-NPTB,-4.6484,-3.4752,1.4967,49,4.82,139,3.85,0.98,0.2,negative,negative,negative,negative,positive,1
-NPTB,-4.1984,-3.5352,1.4767,42,3,94,4.17,0.93,0.34,positive,positive,negative,negative,negative,1
-NPTB,-2.2184,-0.1852,0.3567,57,4.57,133,11.13,1.21,0.43,positive,negative,positive,negative,positive,1
-NPTB,-3.6484,0.5948,2.5467,28,4.78,89,6.07,0.91,0.55,negative,positive,positive,negative,positive,1
-NPTB,-4.3884,-0.6852,2.1667,48,4.97,151,5.5,1.54,0.61,positive,negative,positive,negative,negative,1
-NPTB,-2.6884,-2.5752,1.4467,18,5.13,146,7.32,0.88,0.89,positive,positive,positive,positive,positive,1
-NPTB,-2.3584,-0.0952,2.9167,36,4.79,142,4.38,1.74,0.31,positive,negative,positive,positive,positive,1
-NPTB,-2.7784,0.3748,0.7367,45,3.63,105,2.95,0.64,0.38,positive,positive,negative,negative,positive,1
-NPTB,-1.2684,-6.8052,1.5967,61,6.49,188,9.5,1.4,0.59,negative,negative,negative,negative,positive,1
-NPTB,-1.7384,-2.2252,1.8967,19,5.13,117,9.78,2.24,0.65,positive,negative,positive,negative,positive,1
-NPTB,-0.9084,-3.4552,0.4567,15,5.27,128,4.95,1.13,0.37,negative,negative,negative,negative,positive,1
-NPTB,-1.0384,-2.3752,0.4667,19,4.54,143,5.41,2.3,0.42,positive,negative,negative,negative,negative,1
-NPTB,-1.3584,-4.1152,1.4267,54,4.59,129,7.18,1.49,0.48,positive,negative,negative,negative,negative,1
-NPTB,-1.3884,-0.3752,1.0067,30,3.99,116,6.31,0.57,0.34,negative,negative,positive,negative,positive,1
-NPTB,-0.7284,-1.6452,1.6467,25,4.24,113,6.36,0.81,0.64,negative,positive,positive,negative,negative,1
-NPTB,-0.0484,-3.2952,1.3067,27,4.42,126,4.97,1.43,0.32,positive,negative,negative,negative,negative,1
-NPTB,-2.7584,-1.7652,0.8467,16,3.55,118,1.6,0.59,0.1,positive,negative,positive,negative,positive,1
-NPTB,-0.0584,-3.5852,1.2167,73,4.16,136,7.62,1.4,1.12,positive,negative,positive,negative,positive,1
-NPTB,-1.2284,-3.1352,0.4267,28,5.4,160,8.22,1.27,0.73,negative,positive,positive,negative,negative,1
-NPTB,-2.7584,-3.9252,1.6667,28,3.52,87,4.66,0.86,0.48,positive,positive,negative,negative,negative,1
-NPTB,-2.7484,-4.7052,2.2167,52,6.2,179,5.58,0.15,0.03,negative,positive,negative,negative,positive,1
-NPTB,-3.4684,-3.5352,-1.4633,29,2.44,74,2.67,0.91,0.19,positive,positive,positive,negative,negative,1
-NPTB,-2.3284,-3.3552,2.2967,41,3.88,109,3.3,1.06,0.3,negative,negative,positive,negative,positive,1
-NPTB,-1.6084,-1.2452,0.2767,66,4.41,134,7.77,1.22,0.72,negative,negative,positive,negative,positive,1
-NPTB,-1.4284,-1.6452,-1.0433,17,4.5,133,4.88,0.97,0.55,positive,positive,positive,negative,positive,1
-NPTB,-1.7784,-4.6052,1.2567,29,5.37,131,4.26,2.21,0.25,negative,negative,negative,negative,negative,1
-NPTB,-1.0384,-2.2252,-1.3033,20,5.62,170,8.85,1.78,0.84,negative,negative,positive,negative,negative,1
-NPTB,0.3016,-0.3752,1.1467,26,3.42,94,7.54,1.45,0.54,negative,negative,positive,negative,positive,1
-NPTB,-0.1384,-2.1552,-1.9033,68,3.86,115,3.4,0.49,0.38,negative,negative,negative,negative,negative,1
-NPTB,-1.5684,-4.8052,1.2767,51,5.21,153,3.96,1.88,0.27,negative,negative,positive,negative,positive,1
-NPTB,-1.8184,1.0048,1.3567,58,4.66,151,8.44,2.39,0.52,negative,positive,negative,negative,negative,1
-NPTB,-4.2984,-5.9052,2.8067,43,6.07,120,4.45,1.54,0.19,positive,negative,positive,negative,positive,1
-NPTB,-3.7684,-6.6952,2.7667,18,5.66,158,12.35,1.61,0.64,positive,negative,positive,negative,positive,1
-NPTB,-4.9084,-6.2752,0.7567,25,4.76,146,9.28,1.44,0.67,positive,negative,positive,negative,negative,1
-NPTB,-1.9784,-4.2852,1.3467,24,4.74,136,7.82,1.54,0.42,negative,negative,positive,negative,positive,1
-NPTB,-4.8584,-6.5052,1.0767,76,3.55,102,5.99,0.73,0.47,negative,negative,positive,negative,negative,1
-NPTB,-0.2084,-2.3052,0.0667,66,6.17,193,3.03,0.94,0.36,positive,positive,positive,negative,positive,1
-NPTB,0.5516,-2.3052,0.8667,44,4.01,115,4.85,2.4,0.27,negative,negative,negative,negative,positive,1
-NPTB,-1.7384,-2.3052,2.3967,44,5.22,152,10.96,3.13,0.8,positive,negative,negative,negative,positive,1
-NPTB,-0.8884,-2.3052,1.2667,41,4.13,111,8.8,1.03,0.54,negative,negative,negative,negative,negative,1
-NPTB,-1.9984,-3.9852,3.7167,55,2.66,70,10.38,0.59,0.59,positive,negative,positive,negative,positive,1
-NPTB,-1.7484,-3.9152,1.3467,20,5.41,143,7.78,1.27,0.57,negative,negative,negative,negative,negative,1
-NPTB,-3.4384,0.0948,3.4767,41,4.98,154,2.89,0.97,0.16,positive,negative,positive,negative,positive,1
-NPTB,-2.6884,-3.7452,1.8567,45,4.03,126,3.95,0.47,1.5,positive,negative,negative,negative,positive,1
-NPTB,-1.0584,2.7348,4.5767,44,3.94,123,11.05,0.46,0.02,negative,negative,positive,negative,positive,1
-NPTB,-1.0284,-5.2252,0.3267,37,6.12,169,8.87,2.22,0.5,negative,negative,negative,negative,positive,1
-NPTB,-1.6584,0.7748,1.7067,66,4.59,111,34.73,0.35,0.69,negative,positive,negative,negative,negative,1
-NPTB,0.1616,-4.0352,2.0167,15,4.96,132,10.58,2.4,0.7,negative,negative,positive,negative,positive,1
-NPTB,-3.0584,-4.9752,0.2167,61,4.17,122,8.47,1.86,0.68,negative,negative,positive,positive,positive,1
-NPTB,-1.2784,-0.8852,-0.4633,17,3.32,84,5.98,1.04,0.4,negative,positive,positive,negative,positive,1
-NPTB,-1.2884,-5.0752,-1.4333,50,5.03,133,5.56,1.47,0.27,negative,positive,negative,negative,positive,1
-NPTB,0.4116,-4.8552,0.3167,39,4.44,141,10.86,1.41,0.93,positive,positive,negative,positive,positive,1
-NPTB,-1.6684,-3.8052,-0.7533,63,2.97,87,5.91,1.8,0.25,positive,negative,positive,negative,negative,1
-NPTB,0.1316,-1.8852,2.0367,46,4.23,128,4.12,1.58,0.23,negative,negative,positive,negative,positive,1
-NPTB,-1.6784,-3.5752,2.0967,14,4.51,137,5.4,2.5,0.38,positive,negative,positive,positive,positive,1
-NPTB,-0.3884,-4.7852,-1.5133,62,4.19,127,6.97,1.63,0.39,negative,negative,negative,negative,positive,1
-NPTB,-0.1084,-2.7452,-1.6833,21,4.67,140,8.02,0.85,0.51,positive,negative,positive,negative,positive,1
-NPTB,-1.4084,-3.9052,-1.9733,49,3.82,123,5.24,0.74,0.43,negative,negative,negative,negative,negative,1
-NPTB,-2.0484,-2.7052,-1.8533,57,3.68,132,2.07,1,0.07,positive,negative,negative,negative,positive,1
-NPTB,-0.7084,-4.8652,-1.5233,18,3.96,118,4.62,0.72,0.46,positive,negative,positive,negative,positive,1
-NPTB,-1.8784,-4.1552,-1.5533,14,4.95,135,5.97,2.15,0.64,negative,negative,negative,negative,negative,1
-NPTB,-1.2484,-4.3052,-1.0033,21,3.98,117,6.16,1.51,0.43,negative,positive,positive,positive,positive,1
-NPTB,-2.5784,-0.8852,1.2567,52,4.5,133,7.66,2.36,0.69,negative,negative,positive,negative,positive,1
-NPTB,-0.9084,-2.5652,1.2767,34,4.22,129,3.2,1.02,0.28,positive,negative,positive,negative,positive,1
-NPTB,-1.1184,-3.4452,-0.5933,17,3.65,119,3.82,0.67,0.32,positive,negative,negative,negative,positive,1
-NPTB,-0.2384,-0.3752,-1.6833,49,3.91,131,10.45,1.22,0.61,negative,negative,negative,negative,positive,1
-NPTB,-0.7184,-0.3752,-0.3433,44,4.43,125,3.05,1.23,0.15,positive,negative,negative,negative,positive,1
-NPTB,-2.2684,-4.0052,-1.3333,20,5.02,78.5,5.08,0.57,0.65,positive,negative,negative,negative,positive,1
-NPTB,-0.0484,-0.8852,2.3467,72,3.71,113,7.36,1.33,0.5,positive,positive,negative,negative,positive,1
-NPTB,-4.0684,-0.3752,0.2767,15,3.06,71,4.29,1.2,1.24,positive,positive,positive,positive,positive,1
+PTB without pathogenic evidence,-2.7484,0.1848,0.5767,39,4.09,124,8.95,0.45,0.28,negative,negative,positive,positive,negative,1
+PTB without pathogenic evidence,-1.7484,-0.3252,2.0567,29,4.4,120,7.53,1.47,0.87,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.5184,-0.7052,1.9367,21,4.2,124,8.68,0.94,0.56,positive,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-1.6584,-1.3452,2.1167,53,4.62,137,3.96,1.02,0.19,negative,negative,negative,positive,positive,1
+PTB without pathogenic evidence,-1.2184,2.0348,1.5667,34,5.13,139,5.68,1.45,0.3,positive,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-0.2984,1.5048,2.3867,26,5.52,98,12.74,2.06,0.76,positive,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-5.3784,-2.2952,-0.8933,24,4.95,144,6.4,2.57,0.37,negative,negative,negative,positive,positive,1
+PTB without pathogenic evidence,-2.7484,2.5648,4.0067,35,5.25,160,5.28,1.76,0.2,positive,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-2.7584,-0.3952,0.4367,69,2.73,83,2.4,0.58,0.16,positive,positive,positive,negative,negative,1
+PTB without pathogenic evidence,-0.7584,0.6248,3.0667,63,4.12,125,5.93,1.78,0.64,negative,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-4.9784,-5.3852,2.2167,19,4.26,127,4.78,1.69,0.36,negative,negative,negative,positive,positive,1
+PTB without pathogenic evidence,-2.6884,-6.8052,1.9667,27,4.64,129,4.44,0.53,0.53,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.9984,-3.9852,-0.4633,24,4.38,126,7.19,2.22,0.36,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.6084,-0.7352,1.4167,60,4.02,93,8.83,1.26,0.87,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-2.0784,-4.8752,2.1767,30,4.34,116,1.8,0.42,0.06,negative,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-1.3784,-2.3052,2.0067,15,4.7,133,5.2,0.66,0.25,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-0.7684,-2.3052,1.5967,22,4.33,123,9.13,1.22,0.89,negative,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-1.7684,-2.1352,2.1167,22,4.39,111,4.11,1.6,0.29,positive,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-2.7384,-2.3052,2.0267,40,6.18,151,5.83,1.41,0.37,negative,negative,negative,positive,positive,1
+PTB without pathogenic evidence,-2.4784,-2.2152,1.1867,63,3.54,97,6.5,1.12,0.41,negative,positive,negative,positive,negative,1
+PTB without pathogenic evidence,-1.3184,0.7448,1.1867,67,4.35,89,3.43,0.82,0.34,negative,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-2.6284,-0.9952,1.0767,22,4.44,113,10.41,0.92,1.15,positive,positive,positive,positive,negative,1
+PTB without pathogenic evidence,-2.1784,1.1348,0.5267,59,4.44,139,3.97,1.77,0.29,positive,positive,negative,negative,positive,1
+PTB without pathogenic evidence,-2.2184,0.4348,1.8967,56,4.07,121,7.7,1.52,0.77,positive,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-1.1384,-2.3052,1.5167,22,5.14,92,4.97,0.95,0.59,positive,positive,negative,negative,positive,1
+PTB without pathogenic evidence,-1.7484,-2.4652,0.7867,26,3.95,104,9.71,0.55,0.4,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-3.2384,-1.1952,2.5767,33,4.48,127,5.28,0.5,0.37,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-4.6484,-3.4752,1.4967,49,4.82,139,3.85,0.98,0.2,negative,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-4.1984,-3.5352,1.4767,42,3,94,4.17,0.93,0.34,positive,positive,negative,negative,negative,1
+PTB without pathogenic evidence,-2.2184,-0.1852,0.3567,57,4.57,133,11.13,1.21,0.43,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-3.6484,0.5948,2.5467,28,4.78,89,6.07,0.91,0.55,negative,positive,positive,negative,positive,1
+PTB without pathogenic evidence,-4.3884,-0.6852,2.1667,48,4.97,151,5.5,1.54,0.61,positive,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-2.6884,-2.5752,1.4467,18,5.13,146,7.32,0.88,0.89,positive,positive,positive,positive,positive,1
+PTB without pathogenic evidence,-2.3584,-0.0952,2.9167,36,4.79,142,4.38,1.74,0.31,positive,negative,positive,positive,positive,1
+PTB without pathogenic evidence,-2.7784,0.3748,0.7367,45,3.63,105,2.95,0.64,0.38,positive,positive,negative,negative,positive,1
+PTB without pathogenic evidence,-1.2684,-6.8052,1.5967,61,6.49,188,9.5,1.4,0.59,negative,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-1.7384,-2.2252,1.8967,19,5.13,117,9.78,2.24,0.65,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-0.9084,-3.4552,0.4567,15,5.27,128,4.95,1.13,0.37,negative,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-1.0384,-2.3752,0.4667,19,4.54,143,5.41,2.3,0.42,positive,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-1.3584,-4.1152,1.4267,54,4.59,129,7.18,1.49,0.48,positive,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-1.3884,-0.3752,1.0067,30,3.99,116,6.31,0.57,0.34,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-0.7284,-1.6452,1.6467,25,4.24,113,6.36,0.81,0.64,negative,positive,positive,negative,negative,1
+PTB without pathogenic evidence,-0.0484,-3.2952,1.3067,27,4.42,126,4.97,1.43,0.32,positive,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-2.7584,-1.7652,0.8467,16,3.55,118,1.6,0.59,0.1,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-0.0584,-3.5852,1.2167,73,4.16,136,7.62,1.4,1.12,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.2284,-3.1352,0.4267,28,5.4,160,8.22,1.27,0.73,negative,positive,positive,negative,negative,1
+PTB without pathogenic evidence,-2.7584,-3.9252,1.6667,28,3.52,87,4.66,0.86,0.48,positive,positive,negative,negative,negative,1
+PTB without pathogenic evidence,-2.7484,-4.7052,2.2167,52,6.2,179,5.58,0.15,0.03,negative,positive,negative,negative,positive,1
+PTB without pathogenic evidence,-3.4684,-3.5352,-1.4633,29,2.44,74,2.67,0.91,0.19,positive,positive,positive,negative,negative,1
+PTB without pathogenic evidence,-2.3284,-3.3552,2.2967,41,3.88,109,3.3,1.06,0.3,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.6084,-1.2452,0.2767,66,4.41,134,7.77,1.22,0.72,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.4284,-1.6452,-1.0433,17,4.5,133,4.88,0.97,0.55,positive,positive,positive,negative,positive,1
+PTB without pathogenic evidence,-1.7784,-4.6052,1.2567,29,5.37,131,4.26,2.21,0.25,negative,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-1.0384,-2.2252,-1.3033,20,5.62,170,8.85,1.78,0.84,negative,negative,positive,negative,negative,1
+PTB without pathogenic evidence,0.3016,-0.3752,1.1467,26,3.42,94,7.54,1.45,0.54,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-0.1384,-2.1552,-1.9033,68,3.86,115,3.4,0.49,0.38,negative,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-1.5684,-4.8052,1.2767,51,5.21,153,3.96,1.88,0.27,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.8184,1.0048,1.3567,58,4.66,151,8.44,2.39,0.52,negative,positive,negative,negative,negative,1
+PTB without pathogenic evidence,-4.2984,-5.9052,2.8067,43,6.07,120,4.45,1.54,0.19,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-3.7684,-6.6952,2.7667,18,5.66,158,12.35,1.61,0.64,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-4.9084,-6.2752,0.7567,25,4.76,146,9.28,1.44,0.67,positive,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-1.9784,-4.2852,1.3467,24,4.74,136,7.82,1.54,0.42,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-4.8584,-6.5052,1.0767,76,3.55,102,5.99,0.73,0.47,negative,negative,positive,negative,negative,1
+PTB without pathogenic evidence,-0.2084,-2.3052,0.0667,66,6.17,193,3.03,0.94,0.36,positive,positive,positive,negative,positive,1
+PTB without pathogenic evidence,0.5516,-2.3052,0.8667,44,4.01,115,4.85,2.4,0.27,negative,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-1.7384,-2.3052,2.3967,44,5.22,152,10.96,3.13,0.8,positive,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-0.8884,-2.3052,1.2667,41,4.13,111,8.8,1.03,0.54,negative,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-1.9984,-3.9852,3.7167,55,2.66,70,10.38,0.59,0.59,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.7484,-3.9152,1.3467,20,5.41,143,7.78,1.27,0.57,negative,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-3.4384,0.0948,3.4767,41,4.98,154,2.89,0.97,0.16,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-2.6884,-3.7452,1.8567,45,4.03,126,3.95,0.47,1.5,positive,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-1.0584,2.7348,4.5767,44,3.94,123,11.05,0.46,0.02,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.0284,-5.2252,0.3267,37,6.12,169,8.87,2.22,0.5,negative,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-1.6584,0.7748,1.7067,66,4.59,111,34.73,0.35,0.69,negative,positive,negative,negative,negative,1
+PTB without pathogenic evidence,0.1616,-4.0352,2.0167,15,4.96,132,10.58,2.4,0.7,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-3.0584,-4.9752,0.2167,61,4.17,122,8.47,1.86,0.68,negative,negative,positive,positive,positive,1
+PTB without pathogenic evidence,-1.2784,-0.8852,-0.4633,17,3.32,84,5.98,1.04,0.4,negative,positive,positive,negative,positive,1
+PTB without pathogenic evidence,-1.2884,-5.0752,-1.4333,50,5.03,133,5.56,1.47,0.27,negative,positive,negative,negative,positive,1
+PTB without pathogenic evidence,0.4116,-4.8552,0.3167,39,4.44,141,10.86,1.41,0.93,positive,positive,negative,positive,positive,1
+PTB without pathogenic evidence,-1.6684,-3.8052,-0.7533,63,2.97,87,5.91,1.8,0.25,positive,negative,positive,negative,negative,1
+PTB without pathogenic evidence,0.1316,-1.8852,2.0367,46,4.23,128,4.12,1.58,0.23,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.6784,-3.5752,2.0967,14,4.51,137,5.4,2.5,0.38,positive,negative,positive,positive,positive,1
+PTB without pathogenic evidence,-0.3884,-4.7852,-1.5133,62,4.19,127,6.97,1.63,0.39,negative,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-0.1084,-2.7452,-1.6833,21,4.67,140,8.02,0.85,0.51,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.4084,-3.9052,-1.9733,49,3.82,123,5.24,0.74,0.43,negative,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-2.0484,-2.7052,-1.8533,57,3.68,132,2.07,1,0.07,positive,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-0.7084,-4.8652,-1.5233,18,3.96,118,4.62,0.72,0.46,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.8784,-4.1552,-1.5533,14,4.95,135,5.97,2.15,0.64,negative,negative,negative,negative,negative,1
+PTB without pathogenic evidence,-1.2484,-4.3052,-1.0033,21,3.98,117,6.16,1.51,0.43,negative,positive,positive,positive,positive,1
+PTB without pathogenic evidence,-2.5784,-0.8852,1.2567,52,4.5,133,7.66,2.36,0.69,negative,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-0.9084,-2.5652,1.2767,34,4.22,129,3.2,1.02,0.28,positive,negative,positive,negative,positive,1
+PTB without pathogenic evidence,-1.1184,-3.4452,-0.5933,17,3.65,119,3.82,0.67,0.32,positive,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-0.2384,-0.3752,-1.6833,49,3.91,131,10.45,1.22,0.61,negative,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-0.7184,-0.3752,-0.3433,44,4.43,125,3.05,1.23,0.15,positive,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-2.2684,-4.0052,-1.3333,20,5.02,78.5,5.08,0.57,0.65,positive,negative,negative,negative,positive,1
+PTB without pathogenic evidence,-0.0484,-0.8852,2.3467,72,3.71,113,7.36,1.33,0.5,positive,positive,negative,negative,positive,1
+PTB without pathogenic evidence,-4.0684,-0.3752,0.2767,15,3.06,71,4.29,1.2,1.24,positive,positive,positive,positive,positive,1
