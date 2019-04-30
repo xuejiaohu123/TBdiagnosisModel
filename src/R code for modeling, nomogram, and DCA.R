@@ -140,13 +140,12 @@ Allpatients <- read.csv("Allpatients.csv",as.is = T,sep = ",",header = TRUE, na.
 Allpatients[catVars] <- lapply(Allpatients[catVars], as.factor)
 str(Allpatients)
 
-
 library(rmda)
 set.seed(123) 
 EHR <- decision_curve(Group_value ~ Age+HB+M+Low_grade_fever+Weight_loss+CT_calcification+CT_bronchus_sign+TB_IGRA,family=binomial(link = "logit"),data = Allpatients, policy = "opt-in", thresholds= seq(0,1, by = 0.01), confidence.intervals =0.95, bootstraps = 500)
 Nomogram <- decision_curve(Group_value ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link = "logit"),data = Allpatients, policy = "opt-in", thresholds= seq(0,1, by = 0.01), confidence.intervals =0.95, bootstraps = 500)
-plot_decision_curve( list(EHR, Nomogram),curve.names = c("EHR only model", "Nomogram"),xlab=c("Threshold Probability"),standardize = F,col = c("blue", "red"), confidence.intervals =FALSE, xlim = c(0, 1), lty = c(2,1),cost.benefit.axis = FALSE,legend.position = "none")
-legend("topright", cex=0.7, legend=c("EHR only model", "Nomogram","All","None"),col=c('blue','red','grey','black'), lty = c(2,1,1,1),lwd=c(2, 2, 1, 1))
+plot_decision_curve( list(EHR, Nomogram),curve.names = c("EHR only model", "Nomogram"),xlab=c("Threshold Probability"),standardize = F,col = c("#F8766D","#619CFF"), confidence.intervals =FALSE, xlim = c(0, 1), lty = c(2,1),cost.benefit.axis = FALSE,legend.position = "none")
+legend("topright", cex=0.7, legend=c("EHR only model", "Nomogram","All","None"),col=c("#F8766D","#619CFF",'grey','black'), lty = c(2,1,1,1),lwd=c(2, 2, 1, 1))
 library(gridGraphics)
 grid.echo()
 grid.ls()
