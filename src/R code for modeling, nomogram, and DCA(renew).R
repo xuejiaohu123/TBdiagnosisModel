@@ -259,8 +259,94 @@ set.seed(123)
 EHR <- decision_curve(Group_value ~ Age+HB+M+Low_grade_fever+Weight_loss+CT_calcification+CT_bronchus_sign+TB_IGRA,family=binomial(link = "logit"),data = Allpatients, policy = "opt-in", thresholds= seq(0,1, by = 0.01), confidence.intervals =0.95, bootstraps = 500)
 Nomogram <- decision_curve(Group_value ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link = "logit"),data = Allpatients, policy = "opt-in", thresholds= seq(0,1, by = 0.01), confidence.intervals =0.95, bootstraps = 500)
 plot_decision_curve( list(EHR, Nomogram),curve.names = c("EHR only model", "Nomogram"),xlab=c("Threshold Probability"),standardize = F,col = c("red", "blue"), confidence.intervals =FALSE, xlim = c(0, 1), lty = c(2,1),cost.benefit.axis = FALSE,legend.position = "none")
-legend("topright", cex=0.7, legend=c("EHR only model", "Nomogram","All","None"),col=c('blue','red','grey','black'), lty = c(2,1,1,1),lwd=c(2, 2, 1, 1))
+legend("topright", cex=0.7, legend=c("EHR only model", "Nomogram","All","None"),col=c('red','blue','grey','black'), lty = c(2,1,1,1),lwd=c(2, 2, 1, 1))
 library(gridGraphics)
 grid.echo()
 grid.ls()
 grid.remove("abline", grep=TRUE, global=TRUE)
+
+##################################################################################################################################
+#Part 6: Validate the nomogram (EHR+lncRNA model)  in confirmed PTB patients
+
+#Performance of the Validation2 Cohort (read "PTB_DC_cohort.csv")
+Validation2 <- read.csv("PTB_DC_cohort.csv",as.is = T,sep = ",",header = TRUE, na.strings = c(""))
+Vars <- colnames(Validation2)[c(2:10,16)]
+Catvars <- colnames(Validation2)[c(1,11:15)]
+Validation2[Vars] <- lapply(Validation2[Vars], as.numeric)
+Validation2[Catvars] <- lapply(Validation2[Catvars], as.factor)
+str(Validation2)
+
+Pre_comv2 <- predict.glm(Combined_model,type='response',newdata=Validation2)
+Pre_ehrv2 <- predict.glm(EHR_model,type='response',newdata=Validation2)
+Pre_lncv2 <- predict.glm(LncRNA_model,type='response',newdata=Validation2)
+
+#calculate sensitivity,specificity, accuracy, PPV, NPV
+Pre5 =ifelse(Pre_comv2>0.37,1,0)
+Validation2$Pre5 = Pre5
+true_value5=Validation2$Group_value
+predict_value5=Validation2$Pre5
+cft5 <- table(predict_value5,true_value5)
+confusionMatrix(cft5, positive = "1")
+
+Pre6 =ifelse(Pre_ehrv2>0.26,1,0)
+Validation2$Pre6 = Pre6
+true_value6=Validation2$Group_value
+predict_value6=Validation2$Pre6
+cft6 <- table(predict_value6,true_value6)
+confusionMatrix(cft6, positive = "1")
+
+Pre7 =ifelse(Pre_lncv2>0.32,1,0)
+Validation2$Pre7 = Pre7
+true_value7=Validation2$Group_value
+predict_value7=Validation2$Pre7
+cft7 <- table(predict_value7,true_value7)
+confusionMatrix(cft7, positive = "1")
+
+#calculate AUC
+library(pROC)
+roc_comv2 <- roc(Validation2$Group_value, Pre_comv2)
+roc_comv2$auc 
+ci(roc_comv)
+roc_ehrv2 <- roc(Validation2$Group_value, Pre_ehrv2)
+roc_ehrv2$auc
+ci(roc_ehrv2)
+roc_lncv2 <- roc(Validation2$Group_value, Pre_lncv2)
+roc_lncv2$auc
+ci(roc_lncv2)
+
+#AUC comparison for EHR+lncRNA model, EHR model, and lncRNA model  p-value =0；05/3=0.016
+roc.test(roc_comv2, roc_ehrv2)
+roc.test(roc_comv2, roc_lncv2) 
+roc.test(roc_ehrv2, roc_lncv2) 
+
+#draw ROC curves for confirmed PTB
+plot(roc_comv2,axes=F,legacy.axes=F,asp = F,lwd = 0.85, lty = 1, identity.lty=2,
+     col='blue', main='Validation Cohort 2')
+plot(roc_ehrv2,axes=F,legacy.axes=F,asp = F,lwd = 0.85, lty = 1, identity.lty=2,
+     col='orange', add = TRUE)
+plot(roc_lncv2,axes=F,legacy.axes=F,asp = F,lwd = 0.85, lty = 1, identity.lty=2,
+     col='green4', add = TRUE)
+axis(side=1,at=seq(0,1,0.2),lwd=1,tcl=-0.2, mgp=c(4, 1.6, 1.5))
+axis(side=2,at=seq(0,1,0.2),lwd=1,tcl=-0.2,mgp=c(4, 0.8, 0.4))
+legend(0.7,0.3,cex=0.7,legend=c("EHR+lncRNA AUC = 0.88 (0.85, 0.90)", "EHR only AUC = 0.82 (0.78, 0.85)","lncRNA only AUC = 0.80 (0.77, 0.83)"),
+       col=c("blue", "orange","green4"), bty='n', adj = c(0,50.5), lwd=1.5, seg.len = 0.8)
+
+#calibration plot and Hosmer-Lemeshow test
+Nomo.validation <- lrm(Group ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA, x = TRUE,y = TRUE, data=Validation2)
+plot(calibrate(Nomo.validation,method="boot",B=500))
+
+Combined.validation <- glm(Group ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link="logit"), data=Validation2)
+ResourceSelection::hoslem.test (Combined.validation$y, fitted(Combined.validation), g=10) 
+
+#DCA 
+EHR <- decision_curve(Group_value ~ Age+HB+M+Low_grade_fever+Weight_loss+CT_calcification+CT_bronchus_sign+TB_IGRA,family=binomial(link = "logit"),data = Validation2, policy = "opt-in", thresholds= seq(0,1, by = 0.01), confidence.intervals =0.95, bootstraps = 500)
+Nomogram <- decision_curve(Group_value ~ ENST00000497872+n333737+n335265+Age+HB+Low_grade_fever+Weight_loss+CT_calcification+TB_IGRA,family=binomial(link = "logit"),data = Validation2, policy = "opt-in", thresholds= seq(0,1, by = 0.01), confidence.intervals =0.95, bootstraps = 500)
+plot_decision_curve( list(EHR, Nomogram),curve.names = c("EHR only model", "Nomogram"),xlab=c("Threshold Probability"),standardize = F,col = c("red", "blue"), confidence.intervals =FALSE, xlim = c(0, 1), lty = c(2,1),cost.benefit.axis = FALSE,legend.position = "none")
+legend("topright", cex=0.7, legend=c("EHR only model", "Nomogram","All","None"),col=c('red','blue','grey','black'), lty = c(2,1,1,1),lwd=c(2, 2, 1, 1))
+
+library(gridGraphics)
+grid.echo()
+grid.ls()
+grid.remove("abline", grep=TRUE, global=TRUE)
+
+
